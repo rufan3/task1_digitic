@@ -1,38 +1,47 @@
+header{
+    display: flex;
+    flex-flow: row wrap ;
+
+}
 #header {
     display: flex;
+    flex: 1;
     flex-flow: row;
     align-items: center;
-    background-color:#191970  }
-#name1 {color: white}
-.flex-item {padding: 10px;
+    background-color:#191970 ;
 }
+#name1 {color: white;
+margin-left:90px ;
+}
+
 .item2 { background-color:#BC8F8F;
 }
-.item3 { background-color:#87CEFA  }
-.item4 { background-color:#FFE4C4  }
-.item5 { background-color:#AFEEEE  }
-.item6 { background-color:#DCDCDC  }
-#footer { background-color:#191970  }
-#name2 {color: white}
+.item3 { background-color:#87CEFA ; }
+.item4 { background-color:#FFE4C4  ;}
+.item5 { background-color:#AFEEEE  ;}
+.item6 { background-color:#DCDCDC  ;}
+#footer { background-color:#191970  ;}
+#name2 {color: white;}
+
 .flex-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    width: 100%;
+    background-color:#F5F5F5	 ;
 }
-main{
+
+#main1 {
     display: flex;
     flex: 1;
     justify-content: space-between;
     flex-flow: row ;
     margin: 50px;
 }
-@media screen and (max-width:650px){
-    main{
-        flex-direction: column;
-    }
+#main2 {
+    margin: 50px;
 }
-.flex-items{
-    display: flex;
+
+.flex-items{ display: flex;
     align-items: center ;
     flex-direction:row-reverse;
     gap: 1em;
@@ -45,20 +54,26 @@ main{
     width: 1400px;
     height: 700px;
 }
-.content {
-    flex: 1;
-    margin: 10px;
-}
+
 img {
     width: 300px;
     height: 300px;
 
 }
-
 #plane {
     width: 30px;
     height: 30px;
-    padding: 20px 0px;
+    margin-left: 183px;
+}
+#button2:hover{
+    cursor: pointer;
+
+}
+label:hover{
+    cursor:pointer;
+}
+.content{
+    margin: 10px;
 }
 .flex-item{
     display: flex;
@@ -71,12 +86,11 @@ img {
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-evenly;
-
 }
 #women{
     width: 700px;
     height: 700px;
-    margin: 0px;
+    margin: 0;
 }
 #smartwatch{
     width: 260px;
@@ -86,16 +100,19 @@ img {
 #search{
     height: 20px;
     width: 20px;
+
 }
 .button {
     background-color: orange;
     height: 27px;
     border-radius: 5px;
+    margin-right: 70px;
 }
 input {
-    width:800px;
+    width:600px;
     height: 20px;
     border-radius: 5px;
+    margin-left: 70px;
 }
 .icons {
     height: 24px;
@@ -116,9 +133,8 @@ form{
     flex-direction:row;
     gap: 1em;
     background-color: rgba(25,25,112, 0.9);
-    height: 40px;
-    width: 150px;
     border-radius: 5px;
+    margin:5px;
 }
 .button1:hover{
     cursor: pointer;
@@ -128,6 +144,277 @@ form{
     cursor: pointer;
 
 }
-#button1{
-    margin:0px 0px 0px 200px;
+
+#button2 {
+    background-color:#191970;
+    height: 27px;
+    border-radius: 5px;
+}
+.name4{
+    color: white;
+    font-size: 16px;
+   font-weight: bold;
+}
+.advertisement{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-flow: row ;
+    background-color:white ;
+   margin: 0 50px 0 40px;
+    border-radius:5px;
+}
+.ads{
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+
+.info{
+   color: white;
+    margin-left: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration:none;
+
+}
+a:hover{
+    text-decoration:underline;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+#icon1{
+    height: 50px;
+
+}
+#icon2{
+    height: 70px;
+
+}
+#grid-container2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.navigation2{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 75px;
+}
+.navigation1 {
+    width: 100%;
+    background-color:#00008B;
+    margin-top:-16px;
+    border-bottom: #00008B 5px solid;
+    border-top: #00008B 5px solid;
+}
+header nav ul li {
+    position: relative;
+    float: left;
+}
+header nav ul li a{
+    padding: 15px;
+    display: block;
+}
+header nav ul li a:hover{
+    background:white ;
+    color:#00008B ;
+
+    text-decoration: none;
+}
+
+nav ul li ul{
+    position: absolute;
+    padding: 0;
+    width: 230px;
+    background:#00008B;
+    list-style: none;
+    display: none;
+}
+nav ul li ul li{ width: 100%;
+    border: rgba(255,255,255,0.5) 1px solid;
+}
+nav ul li:hover >ul{
+    display: initial;
+}
+#shop_categories{
+    width: 200px;
+    border-right: 2px solid white ;
+}
+#triangle{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: white;
+}
+
+@media screen and (max-width:1536px){
+
+    .flex-items{
+        display: flex;
+        align-items: center ;
+        flex-direction:row-reverse;
+        gap: 1em;
+        justify-content: space-between;
+        width: 314px;
+        height: 234px;
+        border-radius: 10px;
+    }
+    img {
+        width: 209px;
+        height: 209px;
+
+    }
+    #smartwatch{
+        width: 171px;
+        height: 181px;
+        margin: -10px;
+    }
+    .item2{
+        width: 977px;
+        height: 489px;
+        margin-left:40px;
+    }
+    #headphones{
+        margin: -10px;
+        padding-right: 10px;
+    }
+    #women{
+        width: 489px;
+        height: 489px;
+        margin: 0;
+    }
+    #button1{
+        margin:0 5px 0 5px;
+    }
+    .button1{
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .name3 {color: white;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:650px){
+    #button1{
+        margin-left:-60px;
+        margin-right: -23px;
+    }
+    .name3{
+        color: white;
+        font-size: 7px;
+        margin-top: -8px;
+    }
+    .button1{flex-direction:column;
+        height: 27px;
+        width: 27px;
+
+    }
+    .icons {
+        height: 20px;
+        width: 20px;
+    }
+    #main1{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .flex-items{
+        align-self: end ;
+        width: 370px;
+        height: 335px;
+
+    }
+    #header {
+        width: 100vh;
+
+    }
+    .item2{
+        width: 370px;
+        height: 335px;
+    }
+    #women {
+        width: 247px;
+        height: 247px;
+        margin: 0;
+    }
+    input {
+        width: 150px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    #name1{
+         font-size:24px ;
+        margin-left: 5px;
+        margin-right: -55px;
+    }
+    header{
+          height: 90px;
+    }
+    .advertisement{
+        width:370px;
+        margin-left: 0;
+    }
+    .ads{
+        width: 43px;
+        height: 30px;
+        margin: 3px;
+    }
+    #name2{
+        font-size: 20px;
+    }
+    #button2{
+        width:100px ;
+    }
+    .name4{
+        font-size: 12px;
+    }
+    #blogs{
+        margin-left:230px ;
+        border-left:2px solid white ; ;
+    }
+    #header{
+        height:100px;
+    }
+    .item7{
+        margin-left: -170px;
+}
+    .subscribe{
+    margin-left: -90px;
+}
+    #button2{
+        margin-right: 10px;
+    }
+    #grid-container{ grid-template-areas:"grid-item1"
+                                         "grid-item2"
+                                         "grid-item3"
+                                         "grid-item4"
+                                         "grid-item5" ;
+        margin: 10px;
+    }
+    #grid-item1{
+        grid-area: grid-item1;
+    }
+    #grid-item2{
+        grid-area: grid-item2;
+    }
+    #grid-item3{
+        grid-area: grid-item3;
+    }
+    #grid-item4{
+        grid-area: grid-item4;
+    }
+    #grid-item5{
+        grid-area: grid-item5;
+    }
+
 }

@@ -2,95 +2,193 @@
 <html lang="en">
 <head>
 <META CHARSET="UTF-8">
-    <title>Digitic.</title>
+    <title> Digitic.</title>
     <link rel="stylesheet" href="стиль.css">
 </head>
 <body>
-<div class="flex-container">
-<header id="header" class="flex-item item1">
+<header  class="flex-item item1">
+    <div id="header">
     <H1 id="name1">Digitic.</H1>
     <form>
-    <input type="text" name="text" class="search" placeholder="Search Product Here...">
+        <label>
+            <input type="text" name="text" class="search" placeholder="Search Product Here...">
+        </label>
         <button type="submit" class="button">
-            <img src="search.png" id="search">
+            <img src="search.png" alt="A magnifier" id="search">
+        </button>
+    </form>
+    <form >
+        <button class="button1" id="button1" >
+            <img id="compare" class="icons" src="compare.png" alt="An icon of comparison">
+            <label class="name3" for="button1">Compare Products</label>
         </button>
 
     </form>
-    <form>
-<button class="button1" id="button1">
-    <img id="compare" class="icons" src="compare.png">
-    <div class="content">
-        <h2 class="name3">Compare Products</h2>
+    <form >
+        <button class="button1" id="button3">
+            <img id="heart" class="icons" src="heart.png" alt=" A heart">
+                <label class="name3" for="button3">Favourite Wishlist</label>
+        </button>
+    </form>
+    <form >
+        <button class="button1" id="button4">
+            <img id="profile" class="icons" src="profile.png"   alt=" An icon of a person">
+                <label class="name3" for="button4">Log In My Account </label>
+        </button>
+    </form>
+    <form >
+        <button class="button1" id="button5">
+            <img id="basket" class="icons" src="basket.png"  alt=" An icon of a trash can">
+                <label class="name3" for="button5">My Balance</label>
+        </button>
+    </form>
     </div>
-</button>
-    </form>
-    <button class="button1">
-        <img id="heart" class="icons" src="heart.png">
-        <div class="content">
-            <h2 class="name3">Favourite Wishlist</h2>
-        </div>
-    </button>
-    </form>
-    <button class="button1">
-        <img id="profile" class="icons" src="profile.png">
-        <div class="content">
-            <h2 class="name3">Log In </h2>
-            <h2 class="name3">My Account </h2>
-        </div>
-    </button>
-    </form>
-    </form>
-    <button class="button1">
-        <img id="basket" class="icons" src="basket.png">
-        <div class="content">
-            <h2 class="name3">My Balance</h2>
-
-        </div>
-    </button>
-    </form>
+<div class="navigation1">
+    <nav>
+        <ul class="navigation2">
+            <li><a href="#" id="shop_categories">Shop categories </a> <b id="triangle">&triangledown;</b>
+                <ul>
+                    <li><a href="#">IPads</a></li>
+                    <li><a href="#">Smartwatches</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">AirPods</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our store</a></li>
+            <li><a href="#" id="blogs">Blogs</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
 </header>
 <main>
-    <div class="flex-items item2">
-        <img id="women" src="women.png">
-        <div class="content">
-            <h2>iPad S13+ Pro.</h2>
+    <div id="main1">
+        <div class="flex-items item2">
+            <img id="women" src="women.png" alt=" A women">
+            <div class="content">
+                <h2>iPad S13+ Pro.</h2>
+            </div>
+
         </div>
+        <div class="right-side">
+            <div class="flex-items item3">
+                <img src="laptop.png" alt=" A laptop">
+                <div class="content">
+                    <h2>Laptops Max</h2>
+                </div>
+            </div>
+            <div class="flex-items item4">
+                <img src="ipad.png" alt=" An ipad">
+                <div class="content">
+                    <h2>Buy IPad Air</h2>
+                </div>
+            </div>
+            <div class="flex-items item5">
+                <img id="smartwatch" src="smartwatch.png" alt="Smartwatch">
+                <div class="content">
+                    <h2>Smartwatch 7</h2>
+                </div>
+            </div>
+            <div class="flex-items item6">
+                <img id="headphones" src="headphones.png" alt="Headphones">
+                <div class="content" >
+                    <h2>AirPods Max</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+<div id="main2">
+    <div class="advertisement">
+        <img  class="ads" src="intel.png" alt="The Intel logo" >
+        <img  class="ads" src="sony.png" alt="The Sony logo">
+        <img  class="ads" src="sandisk.png" alt="The Sandisk logo">
+        <img  class="ads" src="dell.png" alt="The Dell logo">
+        <img  class="ads" src="lg.png" alt="The Lg logo">
+        <img  class="ads" src="bose.png" alt="The Bose logo">
+        <img  class="ads" src="samsung.png" alt="The Samsung logo">
+    </div>
+</div>
+</div>
+</main>
+<footer id="footer" >
+    <div class="flex-item item7">
+    <img id="plane" src="plane.png" alt="A paper plane icon">
+    <div class="content">
+    <h2 id="name2">Sign Up For Newsletter</h2>
+    </div>
+
+    <form>
+        <label>
+            <input type="text" name="text" class="subscribe" placeholder="Your E-mail">
+        </label>
+        <button type="submit" id="button2">
+                <label class="name4" for="button2">SUBSCRIBE</label>
+        </button>
+    </form>
+    </div>
+    <hr>
+    <div id="grid-container">
+<div class="info" id="grid-item1">
+
+<h3  >Contact us</h3>
+    Macy's Herald Square<br>
+    151 West 34th Street, New York City, NY 10001-2101<br>
+    United States<br>
+    (212) 695-4400<br>
+    communication@macys.com<br>
+    <a href="https://www.facebook.com/Macys/" target="_blank"><img class="icons" src="facebook.png" alt="The Facebook logo"></a>
+    <a href="https://www.instagram.com/macys/" target="_blank"><img class="icons" src="instagram.png" alt="The Instagram logo"></a>
+    <a href="https://twitter.com/macys" target="_blank"><img class="icons" src="x.png" alt="The X logo"></a>
+    <a href="https://www.pinterest.com/macysofficial/" target="_blank"><img class="icons" src="pinterest.png" alt="The Pinterest logo"></a>
+    <a href="https://www.youtube.com/user/macys" target="_blank"><img class="icons" src="youtube.png" alt="The Youtube logo"></a>
+
+</div>
+    <div class="info" id="grid-item2">
+
+    <h3 >Information</h3>
+    <a href="https://customerservice-macys.com/articles/highlights-of-macys-inc-notice-of-privacy-practices" target="_blank">Privacy Notice</a><br>
+    <a href="https://customerservice-macys.com/articles/macys-and-macyscom-notice-of-privacy-practices-2#california-residents" target="_blank"> CA Privacy Rights</a><br>
+    <a href="https://www.macysinc.com/purpose/our-commitments-and-policies/default.aspx" target="_blank">Customer Bill of Rights</a><br>
+    <a href="https://customerservice-macys.com/articles/product-recalls" target="_blank">Product Recalls</a><br>
+    <a href="https://customerservice-macys.com/articles/what-are-macys-policies-for-online-merchandise-pricing-and-price-adjustments" target="_blank">Pricing Policy</a><br>
 
     </div>
-    <div class="right-side">
-  <div class="flex-items item3">
-      <img src="laptop.png">
-      <div class="content">
-      <h2>Laptops Max</h2>
-      </div>
-  </div>
-  <div class="flex-items item4">
-      <img src="ipad.png">
-      <div class="content">
-      <h2>Buy IPad Air</h2>
-      </div>
-  </div>
-  <div class="flex-items item5">
-      <img id="smartwatch" src="smartwatch.png">
-      <div class="content">
-      <h2>Smartwatch 7</h2>
-      </div>
-  </div>
-  <div class="flex-items item6">
-      <img src="headphones.png">
-      <div class="content">
-      <h2>AirPods Max</h2>
-      </div>
-  </div>
+    <div class="info" id="grid-item3">
+
+        <h3 >Stores & Services</h3>
+        <a href="https://www.macys.com/s/free-shipping/?cm_sp=navigation-_-bottom_nav-_-curbside_%26_in_store_pickup" target="_blank">Curbside & In Store Pickup</a><br>
+        <a href="https://www.macys.com/s/personal-stylist/?cm_sp=navigation-_-bottom_nav-_-personal_stylist" target="_blank"> Personal Stylist</a><br>
+        <a href="https://www.macys.com/s/events/" target="_blank">Store Events</a><br>
+        <a href="https://customerservice-macys.com/articles/tell-us-what-you-think?cm_sp=navigation-_-bottom_nav-_-tell_us_what_you_think" target="_blank">Tell Us What You Think</a><br>
+        <a href="https://www.macys.com/registry" target="_blank">Gift Registry</a><br>
+
+
     </div>
-</main>
-<footer id="footer" class="flex-item item7">
-    <img id="plane" src="plane.png">
-    <div class="content">
-    <h2 id="name2">Sign Up For Newsletter</h2>>
+    <div class="info" id="grid-item4">
+
+        <h3 >Macy's Inc.</h3>
+        <a href="https://www.macys.com/p/corporate/" target="_blank">Corporate Sales</a><br>
+        <a href="https://www.macysinc.com/overview/default.aspx" target="_blank">Corporate Site</a><br>
+        <a href="https://www.macysinc.com/investors/" target="_blank">Investors</a><br>
+        <a href="https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001" target="_blank">MacysJOBS</a><br>
+        <a href="https://www.macys.com/shop/sitemap-index?id=199462&cm_sp=navigation-_-bottom_nav-_-site_map" target="_blank">Site Map</a><br>
+        <a href="https://www.macysinc.com/newsroom/?cm_sp=navigation-_-bottom_nav-_-news_room" target="_blank">Newsroom</a><br>
+
+    </div>
+    <div class="info" id="grid-item5">
+
+        <h3 >Our App</h3>
+        Download our app and get  a 10% Discount on your first Order!
+        <div id="grid-container2">
+        <a href="https://play.google.com/store/apps/details?id=com.macys.android&hl=en_US&pli=1" target="_blank"><img id="icon1" src="googleplay.png" alt="The GooglePlay logo"></a>
+        <a href="https://apps.apple.com/us/app/macys/id341036067" target="_blank"><img id="icon2" src="appstore.png" alt="The AppStore logo"></a>
+        </div>
+    </div>
     </div>
 </footer>
-</div>
+
 </body>
 
 </html>
